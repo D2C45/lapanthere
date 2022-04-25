@@ -825,6 +825,28 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
+.paragraphe{
+    font-size: 22px;
+    width: 62%;
+    margin: auto;
+}
+
+.citation{
+    font-size: 20px;
+    font-style: italic;
+    color: #575757;
+    border: none;
+    padding: 10px 50px;
+    margin: 0;
+}
+
+.auteur{
+    font-size: 19px;
+    font-style: normal;
+    color: #575757;
+    padding: 0 10px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
