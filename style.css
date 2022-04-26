@@ -699,6 +699,16 @@ h1{
     background-color: white;
 }
 
+.contact-title{
+    background-color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-adresse{
+        margin-top: 50%;
+    }
+}
+
 footer a{
     color: white!important;
 }
@@ -884,9 +894,9 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+} */
 
 
 @media screen and (min-width: 768px){
