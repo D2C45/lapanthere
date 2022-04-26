@@ -299,6 +299,13 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    border: solid 2px transparent;
+    border-radius: 20px;
+}
+
+.navbar-brand:focus{
+    border: solid 2px black;
+    border-radius: 20px;
 }
 
 .navbar-brand img {
@@ -306,8 +313,13 @@ a:hover {
     margin: 0 5px 0 0;
     display: inline;
     width: 217px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
 
+.navbar-brand img:hover{
+    border-bottom: solid 2px black;
+}
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -371,6 +383,22 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    .site-navigation li{
+        border-top: solid 2px transparent;
+        border-bottom: solid 2px transparent;
+    }
+    .site-navigation li:hover{
+        border-bottom: solid 2px black;
+    }
+
+    .site-navigation a{
+        border: solid 2px transparent;
+        border-radius: 20px;
+    }
+    .site-navigation a:focus{
+        border: solid 2px black;
+    }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -529,6 +557,18 @@ button {
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
+    border: solid 2px white;
+    border-radius: 10px;
+    background-color: #CB4B10;
+}
+
+.showScrollTop:hover, .showScrollTop:focus {
+    border: solid 2px #CB4B10;
+    background-color: white;
+}
+
+.showScrollTop:hover span, .showScrollTop:focus span{
+    color: #CB4B10;
 }
 
 a[data-lightbox] {
@@ -537,7 +577,7 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before, a[data-lightbox]:focus::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
@@ -555,7 +595,7 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img, a[data-lightbox]:focus img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -663,6 +703,10 @@ footer a{
     color: white!important;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -712,6 +756,17 @@ p {
     max-width: 400px;
     margin: auto;
     margin-bottom: 20px;
+}
+
+.social span{
+    width: 55px;
+    height: 55px;
+    border: solid 2px transparent;
+    border-radius: 50%;
+}
+
+.social a:hover span, .social a:focus span{
+    border: solid 2px white;
 }
 
 h2 {
@@ -797,14 +852,15 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #CB4B10;
+    background: #CB4B10;    
     color: #FFFFFF!important;
     border: solid 2px white;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+.btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
+    background: white!important;
+    color: #CB4B10!important;
+    border-color: #CB4B10;
 }
 
 .ltc-white {
@@ -894,6 +950,10 @@ h4 {
 .logo{
     height: 100px;
     width: 100px;
+}
+
+.fa-chevron-up{
+    color: white;
 }
 
 @media screen and (max-width: 767px) {
