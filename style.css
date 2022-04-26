@@ -562,12 +562,12 @@ button {
     background-color: #CB4B10;
 }
 
-.showScrollTop:hover, .showScrollTop:focus {
+.bloc-button:hover, .bloc-button:focus {
     border: solid 2px #CB4B10;
     background-color: white;
 }
 
-.showScrollTop:hover span, .showScrollTop:focus span{
+.bloc-button:hover span, .bloc-button:focus span{
     color: #CB4B10;
 }
 
