@@ -305,6 +305,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 217px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -751,6 +752,8 @@ h4 {
 .portfolio-thumb {
     margin: auto;
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
 }
 
 .portfolio-row {
@@ -886,6 +889,18 @@ h4 {
 #bloc-8 li{
     font-size: 16px;
     padding-bottom: 13px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo{
+        height: 95px;
+        width: 95px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1026,7 +1041,7 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
-        width: auto;
+        width: 217px;
     }
     .nav-invert .navbar-header {
         float: none;
