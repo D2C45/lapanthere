@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -269,7 +269,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 35px;
 }
 
 .row-no-gutters {
@@ -654,6 +654,14 @@ a {
     color: #575757!important;
 }
 
+h1{
+    background-color: white;
+}
+
+footer a{
+    color: white!important;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,7 +685,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -701,11 +709,12 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
@@ -740,6 +749,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -757,6 +767,11 @@ h4 {
     padding: 40px 40px 40px 40px;
 }
 
+.white-background{
+    background-color: white;
+    padding: 40px;
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -771,16 +786,17 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CB4B10;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #CB4B10!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4B10;
     color: #FFFFFF!important;
+    border: solid 2px white;
 }
 
 .btn-atomic-tangerine:hover {
@@ -797,7 +813,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CB4B10!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -813,9 +829,7 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("./img/banniere-agence-la-panthere.jpg");
@@ -829,6 +843,7 @@ h4 {
     font-size: 22px;
     width: 62%;
     margin: auto;
+    margin-bottom: 35px;
 }
 
 .citation{
@@ -845,6 +860,18 @@ h4 {
     font-style: normal;
     color: #575757;
     padding: 0 10px;
+}
+
+.black{
+    color: black!important;
+}
+
+.cta-title{
+    background-color: white;
+}
+
+#bloc-8 .fa{
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {
