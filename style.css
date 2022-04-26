@@ -830,13 +830,22 @@ h4 {
 }
 
 
-
-.bg-banniere {
+@media screen and (min-width: 768px){
+    .bg-banniere {
     background-image: url("./img/banniere-agence-la-panthere.jpg");
+    }
+    .bg-presentation {
+    background-image: url("./img/banniere-espace-de-travail.jpg");
+    }
 }
 
-.bg-presentation {
-    background-image: url("./img/banniere-espace-de-travail.jpg");
+@media screen and (max-width: 767px){
+    .bg-banniere {
+    background-image: url("./img/photo-small/banniere-agence-la-panthere.jpg");
+    }
+    .bg-presentation {
+        background-image: url("./img/photo-small/banniere-espace-de-travail.jpg");
+    }
 }
 
 .paragraphe{
