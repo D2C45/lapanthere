@@ -901,10 +901,10 @@ h4 {
 
 @media screen and (min-width: 768px){
     .bg-banniere {
-    background-image: url("./img/banniere-agence-la-panthere.jpg");
+    background-image: url("./img/photo-large/banniere-agence-la-panthere.jpg");
     }
     .bg-presentation {
-    background-image: url("./img/banniere-espace-de-travail.jpg");
+    background-image: url("./img/photo-large/banniere-espace-de-travail.jpg");
     }
 }
 
